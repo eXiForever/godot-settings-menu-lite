@@ -18,6 +18,7 @@ const FR: Dictionary = {
 	# --- Menu -----------------------------------------------------------------
 	"Settings": "Paramètres",
 	"Tune sound, display and controls to your liking.": "Réglez le son, l'affichage et les commandes à votre goût.",
+	"Tune sound and display to your liking.": "Réglez le son et l'affichage à votre goût.",
 	"Graphics": "Graphismes",
 	"Controls": "Contrôles",
 	"Resolution": "Résolution",
@@ -127,11 +128,6 @@ const FR: Dictionary = {
 		"Flèches / stick : déplacer    ·    Espace / A : sauter    ·    Échap : paramètres",
 	"%s %s %s %s: move    ·    %s: jump    ·    Esc: settings":
 		"%s %s %s %s : déplacer    ·    %s : sauter    ·    Échap : paramètres",
-	# --- Lite edition ----------------------------------------------------------------------
-	"Available in Settings Menu PRO": "Disponible dans Settings Menu PRO",
-	"Keyboard, mouse and gamepad rebinding, conflict handling and saved controls.":
-		"Réassignation des touches clavier, souris et manette, gestion des conflits et sauvegarde des contrôles.",
-	"Get Settings Menu PRO  →": "Obtenir Settings Menu PRO  →",
 }
 
 static var _registered: bool = false

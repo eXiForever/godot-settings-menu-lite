@@ -4,7 +4,8 @@
 
 A clean, ready-to-use settings menu for Godot 4.2+. Add it in two minutes and ship your game with proper options.
 
-![Audio tab](screenshots/audio.gif)
+![Audio tab](screenshots/audio.png)
+![Graphics tab](screenshots/graphics.png)
 
 ## Features
 
@@ -17,7 +18,7 @@ A clean, ready-to-use settings menu for Godot 4.2+. Add it in two minutes and sh
 - **100% typed GDScript**, native Control nodes, no external assets.
 - Demo scene included.
 
-![Themes](screenshots/themes.png)
+![Themes (shown with the PRO edition's extra Controls tab)](screenshots/themes.png)
 
 ## Installation
 

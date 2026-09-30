@@ -1,5 +1,5 @@
 extends Control
-## Settings menu (Audio / Graphics / Controls).
+## Settings menu (Audio / Graphics).
 ##
 ## Instance [code]SettingsMenu.tscn[/code] in your scene (or from code), then call
 ## [method open]. The [signal closed] signal is emitted when it closes.
@@ -75,7 +75,6 @@ func _ready() -> void:
 	_update_frame_size()
 	_tabs.set_tab_title(0, tr("Audio"))
 	_tabs.set_tab_title(1, tr("Graphics"))
-	_tabs.set_tab_title(2, tr("Controls"))
 
 	_save_button.pressed.connect(_on_save_pressed)
 	_defaults_button.pressed.connect(_on_defaults_pressed)
