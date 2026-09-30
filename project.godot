@@ -1,0 +1,23 @@
+; Minimal project so the repository can be opened in Godot to try the demo.
+; Not included in Asset Library downloads (see .gitattributes).
+config_version=5
+
+[application]
+
+config/name="Settings Menu Lite (demo)"
+run/main_scene="res://addons/settings_menu/demo/Demo.tscn"
+config/icon="res://icon.png"
+config/features=PackedStringArray("4.2")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/settings_menu/plugin.cfg")
+
+[autoload]
+
+SettingsManager="*res://addons/settings_menu/SettingsManager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
